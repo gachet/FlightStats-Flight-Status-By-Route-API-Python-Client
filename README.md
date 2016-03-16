@@ -1,6 +1,13 @@
 # FlightStats-Flight-Status-By-Route-API-Python-Client
 Provides an FlightStats.com FlightStatus By Route Client written in Python.
 
+## Installation
+You can install by `git clone` or using the following `pip command`
+
+```
+pip install git+git://github.com/StickOutSocial/FlightStats-Flight-Status-By-Route-API-Python-Client.git
+```
+
 ## Usage
 Before starting, you must obtain an account with FlightStats.com.
 
