@@ -12,7 +12,7 @@ pip install git+git://github.com/StickOutSocial/FlightStats-Flight-Status-By-Rou
 Before starting, you must obtain an account with FlightStats.com.
 
 ```Python
-from flightstats_api_client.api_client import FlightStatusByRouteAPIClient
+from flightstats_api_client.api_clients import FlightStatusByRouteAPIClient
 
 app_id = 'Your FlightStats.com API app_id'
 app_key = 'Your FlightStats.com API app_key'

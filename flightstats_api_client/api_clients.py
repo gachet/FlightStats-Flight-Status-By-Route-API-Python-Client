@@ -22,17 +22,17 @@ class FlightStatusByRouteAPIClient(object):
         self.app_key = app_key
 
     def get_flights_by_departure_date(self,
-                                      departure_date: str,
                                       departure_airport_code: str, 
                                       arrival_airport_code: str,
+                                      departure_date: str,
                                       limit: int=500) -> list:
         """Gets flights from flightstats.com
 
         Args:
-            departure_date: A string represents departure date in yyyy-mm-dd 
-                format
             departure_airport_code: A string represents departure airport code. 
             arrival_airport_code: A string represents arrival airport code.
+            departure_date: A string represents departure date in yyyy-mm-dd 
+                format
             limit: A integer limits number of flights returned
         Returns:
             A list of dictionary represents flights
